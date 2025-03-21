@@ -1,0 +1,10 @@
+queue = []
+queue.append('zayd')
+queue.append('abid')
+queue.append('ali')
+print("Queue after adding elements: ", queue)
+print(queue.pop(0))
+print("Queue after remove first element from them: ", queue)
+print(queue.pop(0))
+print(queue.pop(0))
+print("After removing all elements from queue: ", queue)
